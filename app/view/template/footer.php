@@ -1,19 +1,21 @@
 <footer>
 	<div id="footer">
 		<div class="row">
-			<div class="flex footer-con">
+			<div class="footer-con">
 				<div class="logo-holder">
 					<a href="home"><img loading="lazy" src="public/images/content/logo.png" alt="Logo"></a>
 				</div>
+
+				<div class="socials">
+				<a href="<?php $this->info('fb_link') ?>" target="_blank"><img loading="lazy" src="public/images/content/fb.png" alt="facebook"></a>
+				<a href="<?php $this->info('ig_link') ?>" target="_blank"><img loading="lazy" src="public/images/content/ig.png" alt="instagram"></a>
+				<a href="<?php $this->info('yt_link') ?>" target="_blank"><img loading="lazy" src="public/images/content/yt.png" alt="youtube"></a>
+				<a href="<?php $this->info('tw_link') ?>" target="_blank"><img loading="lazy" src="public/images/content/tw.png" alt="twitter"></a>
+				<a href="<?php $this->info('gp_link') ?>" target="_blank"><img loading="lazy" src="public/images/content/gp.png" alt="google"></a>
+			</div>
 			</div>
 
-			<div class="socials">
-				<a href="<?php $this->info('fb_link') ?>" target="_blank"><img loading="lazy" src="public/images/fb.png" alt="facebook"></a>
-				<a href="<?php $this->info('ig_link') ?>" target="_blank"><img loading="lazy" src="public/images/ig.png" alt="instagram"></a>
-				<a href="<?php $this->info('yt_link') ?>" target="_blank"><img loading="lazy" src="public/images/yt.png" alt="youtube"></a>
-				<a href="<?php $this->info('tw_link') ?>" target="_blank"><img loading="lazy" src="public/images/tw.png" alt="twitter"></a>
-				<a href="<?php $this->info('gp_link') ?>" target="_blank"><img loading="lazy" src="public/images/gp.png" alt="google"></a>
-			</div>
+			
 
 
 			<div class="copyrights">
