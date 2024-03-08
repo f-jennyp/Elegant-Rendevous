@@ -1,23 +1,3 @@
-@font-face {
-  font-family: 'Socialico';
-  src: url("fonts/Socialico/Socialico.eot");
-  src: url("fonts/Socialico/Socialico.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Socialico/Socialico.woff2") format("woff2"),
-    url("fonts/Socialico/Socialico.woff") format("woff"),
-    url("fonts/Socialico/Socialico.ttf") format("truetype"),
-    url("fonts/Socialico/Socialico.svg") format("svg");
-}
-
-@font-face {
-  font-family: "socialico-plus";
-  src: url("fonts/SocialicoPlus/socialico-plus.eot");
-  src: url("fonts/SocialicoPlus/socialico-plus.eot?#iefix") format("embedded-opentype"),
-    url("fonts/SocialicoPlus/socialico-plus.woff2") format("woff2"),
-    url("fonts/SocialicoPlus/socialico-plus.woff") format("woff"),
-    url("fonts/SocialicoPlus/socialico-plus.ttf") format("truetype"),
-    url("fonts/SocialicoPlus/socialico-plus.svg") format("svg");
-}
-
 *,
 *:before,
 *:after {
@@ -28,7 +8,7 @@
 
 body {
   width: 100%;
-  min-width: 1200px;
+  min-width: 1900px;
   margin: 0 auto;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -279,12 +259,10 @@ img {
 #header.fixed {
   position: fixed;
   background-color: rgb(250 250 250 / 90%);
-  /* min-height: 188px; */
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 #header.fixed .logo-holder img {
-  /* max-width: 250px; */
   transition: max-width 0.3s ease;
 }
 
@@ -313,7 +291,6 @@ img {
 #header nav ul {
   justify-content: space-between;
   display: flex;
-  /* gap: 10px; */
 }
 
 nav ul {
@@ -325,7 +302,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   vertical-align: middle;
-  /* padding: 20px 0 0 0; */
 }
 
 nav ul li a {
@@ -346,9 +322,6 @@ nav ul li a::before {
   position: absolute;
   background-color: #130F2B;
 }
-
-#header nav ul li.active-menu a,
-#header nav ul li a:hover {}
 
 nav ul li.active-menu a,
 nav ul li a:hover {
@@ -521,7 +494,6 @@ nav ul li a:hover::before {
 
 
 /* OUR PLANS */
-
 #plans {
   background: url('../images/content/plans-bg.jpg')no-repeat top left;
   -webkit-background-size: cover;
@@ -668,7 +640,6 @@ nav ul li a:hover::before {
 
 #about .row {
   align-items: center;
-
   background: url('../images/content/about-row-bg.png')no-repeat top right;
   -webkit-background-size: cover;
   background-size: cover;
@@ -684,7 +655,6 @@ nav ul li a:hover::before {
   text-align: left;
   width: 100%;
   max-width: 920px;
-  /* background: #fff; */
   padding: 33px 20px 50px;
   margin-top: -47px;
 }
@@ -1025,64 +995,6 @@ form .alert-danger {
   box-sizing: border-box;
 }
 
-/* DROPUP */
-
-.dropup .dropupbtn {
-  font-weight: 700;
-  color: #fff;
-}
-
-#header .dropup {
-  float: left;
-  overflow: hidden;
-}
-
-.dropup .dropupbtn {
-  cursor: pointer;
-  border: none;
-  background-color: inherit;
-  margin: 0;
-}
-
-.navbar a:hover,
-.dropup:hover .dropupbtn {}
-
-.dropup:hover>.dropupbtn {}
-
-.dropup-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  transition: opacity 0.3s ease;
-  padding: 0 18px;
-  border-radius: 10px;
-  bottom: 122px;
-  ;
-}
-
-.dropup-content a {
-  float: none;
-  color: inherit;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  line-height: 46px;
-  color: #000;
-  font-weight: 600;
-}
-
-.dropup-content a:hover {
-  font-weight: 900;
-  color: #CC0000;
-}
-
-.show-up {
-  display: block;
-}
-
 #footer .copyrights {
   padding: 20px 0
 }
@@ -1092,11 +1004,6 @@ form .alert-danger {
   width: 52px;
   margin: 0 5px -14px;
 }
-
-
-
-
-
 
 
 
@@ -1183,8 +1090,6 @@ form .alert-danger {
 }
 
 
-
-
 /*privacy policy*/
 .inPrivacyBox {
   max-width: 850px;
@@ -1198,15 +1103,11 @@ form .alert-danger {
 
 
 /*RESPONSIVE*/
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
 
   .flex {
     justify-content: center;
   }
-
-  /* #plans .top {
-    justify-content: center;
-  } */
 
   #plans .line {
     display: none;
@@ -1318,17 +1219,4 @@ form .alert-danger {
     width: 60px;
     z-index: 999;
   }
-
-
-}
-
-
-/*425*/
-@media screen and (max-width: 767px) {}
-
-
-/*375*/
-@media screen and (max-width: 424px) {}
-
-/*320*/
-@media screen and (max-width: 374px) {}
+} */
