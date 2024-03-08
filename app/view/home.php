@@ -5,11 +5,11 @@
 
 			<div class="welcome-con flex">
 				<div class="left">
-					<div class="top-img">
-						<img loading="lazy" src="public/images/content/wel-img1.jpg" alt=""></a>
+					<div class="top-img hvr-grow">
+						<img loading="lazy" src="public/images/content/wel-img1.jpg" alt="">
 					</div>
-					<div class="bottom-img">
-						<img loading="lazy" src="public/images/content/wel-img2.jpg" alt=""></a>
+					<div class="bottom-img hvr-grow">
+						<img loading="lazy" src="public/images/content/wel-img2.jpg" alt="">
 					</div>
 				</div>
 
@@ -111,8 +111,8 @@
 
 				</div>
 
-				<div class="right">
-					<img loading="lazy" src="public/images/content/plans-img.jpg" alt=""></a>
+				<div class="right hvr-grow">
+					<img loading="lazy" src="public/images/content/plans-img.jpg" alt="">
 				</div>
 			</div>
 
@@ -122,7 +122,7 @@
 	<div id="about">
 		<div class="row flex">
 			<!-- <div class="left">
-				<img loading="lazy" src="public/images/content/about-img.png" alt=""></a>
+				<img loading="lazy" src="public/images/content/about-img.png" alt="">
 			</div> -->
 
 			<div class="right">
@@ -156,7 +156,7 @@
 
 	<div id="elegance">
 		<div class="row">
-			<div class="elegance-con">
+			<div class="elegance-con reveal fade-left active">
 				<h3>“Celebrating Elegance, Sparking Chemistry – Your Story Begins Here</h3>
 				<div class="foreword">“Escape to the Enchanting Elegance </div>
 				<h2>Where Every Encounter is an Adventure”</h2>
@@ -182,7 +182,7 @@
 				<h1>testimonials</h1>
 			</div>
 
-			<div class="testi-con flex">
+			<div class="testi-con flex reveal fade-bottom active">
 				<div class="left">
 					<div class="card review1">
 						<div class="stars"><img loading="lazy" src="public/images/content/stars.png" alt="stars"></div>

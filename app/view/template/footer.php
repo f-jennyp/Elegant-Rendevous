@@ -2,7 +2,7 @@
 	<div id="footer">
 		<div class="row">
 			<div class="footer-con">
-				<div class="logo-holder">
+				<div class="logo-holder hvr-grow">
 					<a href="home"><img loading="lazy" src="public/images/content/logo.png" alt="Logo"></a>
 				</div>
 
@@ -97,41 +97,7 @@
 		});
 	});
 
-	// DROPDOWN SERVICES
-	function myFunction() {
-		var dropdownContent = document.getElementById("myDropdown");
-		dropdownContent.classList.toggle("show-down");
-	}
-
-	window.onclick = function (e) {
-		if (!e.target.matches('.dropbtn')) {
-			var dropdowns = document.getElementsByClassName("dropdown-content");
-			for (var i = 0; i < dropdowns.length; i++) {
-				var openDropdown = dropdowns[i];
-				if (openDropdown.classList.contains('show-down')) {
-					openDropdown.classList.remove('show-down');
-				}
-			}
-		}
-	}
-
-	// DROPUP FOOTER SERVICES
-	function myFunction2() {
-		var dropupContent = document.getElementById("myDropup");
-		dropupContent.classList.toggle("show-up");
-	}
-
-	window.onclick = function (e) {
-		if (!e.target.matches('.dropupbtn')) {
-			var dropups = document.getElementsByClassName("dropup-content");
-			for (var i = 0; i < dropups.length; i++) {
-				var openDropup = dropups[i];
-				if (openDropup.classList.contains('show-up')) {
-					openDropup.classList.remove('show-up');
-				}
-			}
-		}
-	}
+	
 </script>
 
 <?php if ($this->siteInfo['cookie']): ?>

@@ -34,7 +34,7 @@
 	<header>
 		<div id="header" class="">
 			<div class="row flex">
-				<div class="logo-holder">
+				<div class="logo-holder hvr-grow">
 					<a href="home"><img loading="lazy" src="public/images/content/logo.png" alt="Logo"></a>
 				</div>
 
@@ -58,7 +58,7 @@
 	<!-- <?php //if($view == "home"):  ?> -->
 	<div id="banner">
 		<div class="row">
-			<div class="banner-con">
+			<div class="banner-con cssanimation fadeInBottom">
 				<div class="ban-title">Start Your Elegant Journey Here</div>
 				<div class="to-sm"><i>Ready to Unveil the Hidden Jewel of Japan? Elevate Your Kyushu Experience with
 						Elegant Rendezvous</i> <br><br>
